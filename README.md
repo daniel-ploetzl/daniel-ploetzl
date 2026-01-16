@@ -2,10 +2,7 @@
 
 Junior Cybersecurity Analyst (SOC Analyst) candidate completing the Computer Software Engineering program at 42 Vienna (project-based, peer-to-peer), with a focus on Linux systems, networking, and security fundamentals.
 
-Hands-on experience through projects involving system hardening, authentication monitoring, log analysis, and process-level understanding of Linux systems.
-
-Background in high-responsibility operational environments contributes strong analytical thinking, structured problem solving, and reliability under pressure.
-
+Hands-on experience gained through system hardening projects and custom Bash tooling for authentication log analysis. Background in high-responsibility operational roles contributes strong analytical thinking, structured problem solving, and reliability under pressure.
 
 ## 🛠️ Tech Stack
 
@@ -44,7 +41,7 @@ Background in high-responsibility operational environments contributes strong an
 ## 📁 Selected Projects
 
 ### [🔍 soc-auth-triage](https://github.com/daniel-ploetzl/soc-auth-triage)
-**Authentication log analysis script for security inspection**
+**Authentication log analysis tool**
 - Failed SSH login analysis and brute-force detection
 - Credential stuffing pattern recognition
 - Perl regex-based log parsing
@@ -54,18 +51,19 @@ Background in high-responsibility operational environments contributes strong an
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
 ### [🔒 Born2BeRoot-hardening](https://github.com/daniel-ploetzl/born2beroot-hardening)
-**Linux hardening & baseline security**
-- System hardening and access control
-- SSH configuration and firewall setup
-- User management and monitoring
+**Linux system hardening & security**
+- Secure Linux VM setup
+- SSH hardening, user and privilege management
+- Firewall configuration and basic monitoring
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
 
 ### [💻 Minishell](https://github.com/daniel-ploetzl/minishell)
-**Unix shell implementation**
+**Unix shell implementation in C**
 - Process control, pipes, redirections
 - Signal handling and environment management
+- Low-level understanding of system behaviour
 
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
