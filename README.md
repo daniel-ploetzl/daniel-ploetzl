@@ -40,7 +40,7 @@ My background combines hands-on technical training with several years of experie
 
 ## 📁 Selected Projects
 
-### [🔍 soc-auth-triage](https://github.com/danielploetzl/soc-auth-triage)
+### [🔍 soc-auth-triage](https://github.com/daniel-ploetzl/soc-auth-triage)
 **SSH authentication log analyzer for SOC triage**
 - Failed SSH login analysis and brute-force detection
 - Credential stuffing pattern recognition
@@ -49,7 +49,7 @@ My background combines hands-on technical training with several years of experie
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-### [🔒 Born2BeRoot-hardening](https://github.com/danielploetzl/born2beroot-hardening)
+### [🔒 Born2BeRoot-hardening](https://github.com/daniel-ploetzl/born2beroot-hardening)
 **Linux hardening & baseline security**
 - System hardening and access control
 - SSH configuration and firewall setup
@@ -58,7 +58,7 @@ My background combines hands-on technical training with several years of experie
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
 
-### [💻 Minishell](https://github.com/danielploetzl/minishell)
+### [💻 Minishell](https://github.com/daniel-ploetzl/minishell)
 **Unix shell implementation**
 - Process control, pipes, redirections
 - Signal handling and environment management
