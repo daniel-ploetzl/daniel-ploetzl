@@ -44,10 +44,11 @@ Background in high-responsibility operational environments contributes strong an
 ## 📁 Selected Projects
 
 ### [🔍 soc-auth-triage](https://github.com/daniel-ploetzl/soc-auth-triage)
-**Authentication log analyzer for SOC triage**
+**Authentication log analysis script for security inspection**
 - Failed SSH login analysis and brute-force detection
 - Credential stuffing pattern recognition
 - Perl regex-based log parsing
+- Time-based attack clustering
 
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
@@ -68,10 +69,6 @@ Background in high-responsibility operational environments contributes strong an
 
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-
-## Background
-
-Before transitioning into cybersecurity and systems engineering, I worked in program management, organizational development, and operational roles in high-responsibility environments. This background strengthens my ability to operate in structured, process-driven contexts such as security operations.
 
 ## 📍 Location
 
