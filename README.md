@@ -21,7 +21,6 @@ Hands-on experience gained through system hardening projects and custom Bash too
 ![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
 ![Tmux](https://img.shields.io/badge/Tmux-1BB91F?style=for-the-badge&logo=tmux&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-6C757D?style=for-the-badge&logo=ansible&logoColor=white)
 ![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white)
 ![VMware](https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white)
 
@@ -46,8 +45,8 @@ Hands-on experience gained through system hardening projects and custom Bash too
 **Authentication log analysis script**
 - Failed SSH login analysis and brute-force detection
 - Credential stuffing pattern recognition
-- Perl regex-based log parsing
 - Time-based attack clustering
+- Potential compromised accounts
 
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
