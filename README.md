@@ -1,22 +1,33 @@
 # Daniel Plötzl
 
-Offensive Cybersecurity Practitioner completing the Computer Science Engineering program at 42 Vienna (project-based, peer-to-peer learning model), with a strong focus on Linux internals, system behaviour analysis and penetration testing fundamentals.
+Red Team Practitioner completing the Computer Software Engineering programme at 42 Vienna (project-based, peer-to-peer learning model) with practical offensive security emphasis.
 
-Hands-on experience building low-level Linux tooling, system interaction analysis frameworks and endpoint input simulation projects in controlled environments.
+Hands-on experience with process lifecycle manipulation, session-level exploitation, endpoint simulation and detection analysis in controlled environments.
 
----
+Currently preparing for Certified Red Team Professional (CRTP) certification to strengthen Active Directory exploitation capabilities and expand penetration testing credentials.
+
+## Core Areas
+
+- System exploitation and session control mechanisms: setsid, process groups, signal handling
+- Ephemeral execution: runtime isolation and persistence boundaries in volatile memory environments
+- X11 internals: window manager bypass, input grabbing, session takeover
+- USB HID simulation: user input emulation, endpoint testing and detection evasion
+
+## Current Focus
+
+- Preparing for Certified Red Team Professional (CRTP) certification
+- Penetration testing fundamentals through system-level experimentation
+- Developing offensive security labs in controlled environments
 
 ## 🛠️ Tech Stack
-
-### Security & Systems
+### Operating Systems & Tools
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-6C757D?style=for-the-badge&logo=git&logoColor=white)
-
-### Languages
+### Coding
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ### Tools & Environment
 ![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
 ![Tmux](https://img.shields.io/badge/Tmux-1BB91F?style=for-the-badge&logo=tmux&logoColor=white)
@@ -25,31 +36,9 @@ Hands-on experience building low-level Linux tooling, system interaction analysi
 ![Wireshark](https://img.shields.io/badge/Wireshark-6C757D?style=for-the-badge&logo=wireshark&logoColor=white)
 ![Nmap](https://img.shields.io/badge/Nmap-2496ED?style=for-the-badge)
 
----
-
-## Technical Focus
-
-- Linux internals: process lifecycle, signals, session management, file systems  
-- System behaviour analysis: execution context and runtime observation  
-- Penetration testing fundamentals: system interaction and attack surface understanding  
-- Networking fundamentals: TCP/IP, ports, client-server communication  
-- Scripting and automation: Bash tooling for system analysis and control  
-- Endpoint interaction: USB HID input simulation and device-level behaviour  
-
----
-
-## Current Direction
-
-- Offensive security tooling and system analysis  
-- Linux internals and process behaviour research  
-- Endpoint simulation and interaction testing  
-- Practical penetration testing skill development  
-
----
-
 ## 📁 Selected Projects
-- ⚙️ [proc-lab](https://github.com/daniel-ploetzl/proc-lab) — Linux process lifecycle and execution behaviour analysis
-- 🖥️ [x11-lab](https://github.com/daniel-ploetzl/x11-lab) — X11 session behaviour and input handling analysis  
-- ⌨️ [hid-lab](https://github.com/daniel-ploetzl/hid-lab) — USB HID input simulation using embedded hardware  
 
----
+- 🖥️ [x11-lab](https://github.com/daniel-ploetzl/x11-lab) - X11 input grabbing, window manager bypass and session takeover
+- ⌨️ [hid-lab](https://github.com/daniel-ploetzl/hid-lab) - USB HID input simulation via embedded hardware (Raspberry Pi Pico 2)
+- ⚙️ [proc-lab](https://github.com/daniel-ploetzl/proc-lab) - Process group detachment, signal handling and lifecycle control
+- 💾 [ram-workspace-lab](https://github.com/daniel-ploetzl/ram-workspace-lab) - Runtime isolation and persistence boundary analysis in volatile memory
