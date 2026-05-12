@@ -1,10 +1,8 @@
 # Daniel Plötzl
 
-Red Team Practitioner completing the Computer Software Engineering programme at 42 Vienna (project-based, peer-to-peer learning model) with practical offensive security emphasis.
+Transitioning into penetration testing and Red Team operations while completing the Computer Software Engineering programme at 42 Vienna (project-based, peer-to-peer learning model) with practical offensive security emphasis.
 
-Hands-on experience with process lifecycle manipulation, session-level exploitation, endpoint simulation and detection analysis in controlled environments.
-
-Currently preparing for Certified Red Team Professional (CRTP) certification to strengthen Active Directory exploitation capabilities and expand penetration testing credentials.
+Hands-on experience with process lifecycle manipulation, exphemeral execution environments and forensic visibility analysis, session-level exploitation, endpoint simulation and detection analysis in controlled environments.
 
 ## Core Areas
 
@@ -15,7 +13,7 @@ Currently preparing for Certified Red Team Professional (CRTP) certification to 
 
 ## Current Focus
 
-- Preparing for Certified Red Team Professional (CRTP) certification
+- Preparing for the Certified Red Team Professional (CRTP) certification
 - Penetration testing fundamentals through system-level experimentation
 - Developing offensive security labs in controlled environments
 
