@@ -1,19 +1,22 @@
 # Daniel Plötzl
 
-Transitioning into penetration testing and Red Team operations while completing the Computer Software Engineering programme at 42 Vienna (project-based, peer-to-peer learning model) with practical offensive security emphasis.
 
-Hands-on experience with process lifecycle manipulation, exphemeral execution environments and forensic visibility analysis, session-level exploitation, endpoint simulation and detection analysis in controlled environments.
+[42 Vienna](https://www.42vienna.com/) graduate (Common Core, April 2024 - June 2026), now in the 42 Mastery programme specialising in DevOps & Infrastructure and Cybersecurity. 42 Vienna is part of the [42 Network](https://www.42network.org/), the world's largest IT school network (50+ campuses, 30+ countries), ranked 3rd in the 2026 WURI innovation ranking ahead of MIT (5th) and Stanford (7th) on that list.
+
+Hands-on experience with process lifecycle manipulation, ephemeral execution environments and forensic visibility analysis, session-level exploitation, endpoint simulation and detection analysis in controlled environments - alongside Linux systems administration, virtualisation and containerisation from project-based coursework.
 
 ## Core Areas
 
 - System exploitation and session control mechanisms: setsid, process groups, signal handling
 - Ephemeral execution: runtime isolation and persistence boundaries in volatile memory environments
 - X11 internals: window manager bypass, input grabbing, session takeover
-- USB HID simulation: user input emulation, endpoint testing and detection evasion
+- USB HID simulation: user input emulation and endpoint testing
+- Linux systems administration: partitioning, user and permission management, service hardening, cron-based monitoring
 
 ## Current Focus
 
-- Preparing for the Certified Red Team Professional (CRTP) certification
+- 42 Mastery: Inception-of-Things (Kubernetes clusters, CI/CD pipeline) and Cloud-1 (cloud server infrastructure)
+- Self-directed infrastructure lab: KVM/libvirt, Ansible, Terraform, Kubernetes (k3s), Prometheus/Grafana, GitLab CI/CD
 - Penetration testing fundamentals through system-level experimentation
 - Developing offensive security labs in controlled environments
 
@@ -34,9 +37,19 @@ Hands-on experience with process lifecycle manipulation, exphemeral execution en
 ![Wireshark](https://img.shields.io/badge/Wireshark-6C757D?style=for-the-badge&logo=wireshark&logoColor=white)
 ![Nmap](https://img.shields.io/badge/Nmap-2496ED?style=for-the-badge)
 
+### 🧪 Currently Building
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+
 ## 📁 Selected Projects
 
 - 🖥️ [x11-lab](https://github.com/daniel-ploetzl/x11-lab) - X11 input grabbing, window manager bypass and session takeover
 - ⌨️ [hid-lab](https://github.com/daniel-ploetzl/hid-lab) - USB HID input simulation via embedded hardware (Raspberry Pi Pico 2)
 - ⚙️ [proc-lab](https://github.com/daniel-ploetzl/proc-lab) - Process group detachment, signal handling and lifecycle control
 - 💾 [ram-workspace-lab](https://github.com/daniel-ploetzl/ram-workspace-lab) - Runtime isolation and persistence boundary analysis in volatile memory
+- 🐳 [inception](https://github.com/daniel-ploetzl/inception) - Containerised multi-service infrastructure: one service per container, isolated Docker networks, TLS, no third-party images
+- 🔒 [ft_transcendence](https://github.com/daniel-ploetzl/ft_transcendence) - Team project; WAF (ModSecurity, OWASP CRS) and secrets management (HashiCorp Vault) module
