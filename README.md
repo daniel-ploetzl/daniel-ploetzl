@@ -8,7 +8,7 @@ Hands-on experience with offensive security research and detection analysis: net
 ## Core Areas
 
 - **Network security**: ARP spoofing/poisoning, Man-in-the-Middle attack implementation and protocol vulnerability analysis (Layer 2)
-- **Windows internals**: Service architecture (SCM/Windows API), keylogger development, EDR detection analysis
+- **Windows security tooling**: Service architecture (SCM/Windows API), keylogger development, EDR detection analysis
 - **Authentication log analysis**: SSH attack pattern recognition, temporal clustering, failed/successful login correlation
 - **Ephemeral execution**: runtime isolation, persistence boundaries in volatile memory, forensic visibility implications
 - **Process lifecycle manipulation**: process group control, setsid, signal handling, transient execution analysis
@@ -22,7 +22,7 @@ Hands-on experience with offensive security research and detection analysis: net
 
 - ft_malcolm: ARP spoofing/poisoning implementation and Layer 2 MitM attack analysis (42 Mastery)
 - tinky_winkey: Windows Service and Keylogger development, EDR detection analysis (42 Mastery)
-- hid-lab: extending USB HID simulation to WiFi-capable hardware (RP2350W) for wireless input injection research
+- hid-lab: extending USB HID simulation to WiFi-capable hardware (RP2350W): wireless input injection, scheduled execution and remote configuration
 - (Embedded) Systems Programming: low-level hardware interaction, USB and WiFi protocol behaviour on RP2350
 
 
