@@ -12,7 +12,7 @@ Hands-on experience with offensive security research and detection analysis: net
 - **Ephemeral execution**: runtime isolation, persistence boundaries in volatile memory, forensic visibility implications
 - **Process lifecycle manipulation**: process group control, setsid, signal handling, transient execution analysis
 - **Session-level exploitation**: X11 window manager bypass, input grabbing, session takeover without elevated privileges
-- **Endpoint simulation**: USB HID input emulation, hardware-generated input analysis, detection gap research
+- **Endpoint simulation**: USB HID input emulation in embedded C, host-side detection of synthetic input
 - **Linux systems administration**: partitioning, user and permission management, service hardening, firewall configuration
 - **Web application security**: WAF (ModSecurity, OWASP CRS), secrets management (HashiCorp Vault)
 
@@ -21,8 +21,8 @@ Hands-on experience with offensive security research and detection analysis: net
 
 - ft_malcolm: ARP spoofing/poisoning implementation and Layer 2 MitM attack analysis (42 Mastery)
 - tinky_winkey: Windows Service and Keylogger development, EDR detection analysis (42 Mastery)
-- hid-lab: extending USB HID simulation to WiFi-capable hardware (RP2350): wireless input generation, scheduled execution and remote configuration
-- (Embedded) Systems Programming: low-level hardware interaction, USB and WiFi protocol behaviour on RP2350
+- hid-lab: extending USB HID simulation on Raspberry Pi Pico 2 W (RP2350): Wi-Fi credentials kept out of the firmware image, CI builds for both boards, next a ground-truth activity log over Wi-Fi
+- (Embedded) Systems Programming: low-level hardware interaction, USB and Wi-Fi protocol behaviour on RP2350
 
 
 ## 🛠️ Tech Stack
@@ -56,7 +56,7 @@ Hands-on experience with offensive security research and detection analysis: net
 
 - 🔍 [soc-auth-triage](https://github.com/daniel-ploetzl/soc-auth-triage) - Authentication log analysis: SSH attack pattern recognition, time-based clustering and failed/successful login correlation
 - 🖥️ [x11-lab](https://github.com/daniel-ploetzl/x11-lab) - X11 input grabbing, window manager bypass and session takeover
-- ⌨️ [hid-lab](https://github.com/daniel-ploetzl/hid-lab) - USB HID input simulation via embedded hardware (Raspberry Pi Pico 2 W)
+- ⌨️ [hid-lab](https://github.com/daniel-ploetzl/hid-lab) - USB HID input simulation firmware in C for Raspberry Pi Pico 2 and Pico 2 W (RP2350)
 - ⚙️ [proc-lab](https://github.com/daniel-ploetzl/proc-lab) - Ephemeral process execution: process group detachment, signal handling and forensic visibility analysis
 - 💾 [ram-workspace-lab](https://github.com/daniel-ploetzl/ram-workspace-lab) - Runtime isolation and persistence boundary analysis in volatile memory
 - 🔒 [ft_transcendence](https://github.com/daniel-ploetzl/ft_transcendence) - Full-stack team project; own modules: WAF (ModSecurity, OWASP CRS) and secrets management (HashiCorp Vault)
