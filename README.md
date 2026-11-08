@@ -32,6 +32,7 @@ Hands-on experience with offensive security research and detection analysis: net
 ### Operating Systems
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Zephyr](https://img.shields.io/badge/Zephyr-7929D2?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjggOCAyNTEgMTQ2Ij48ZyBmaWxsPSIjZmZmIj48cG9seWdvbiBwb2ludHM9IjEzNy4xNTQsMTIxLjYwMSAxMDUuMzEsMTM1LjA0NiAxMzIuMzg1LDE0OC43MiIvPjxwb2x5Z29uIHBvaW50cz0iNjguNDAxLDEzOS40MTkgMzQuNDM0LDEyNi43MDMgNDIuMzA5LDE1My40MDgiLz48cG9seWdvbiBwb2ludHM9Ijg0LjUwOCwxMTUuNTE4IDEwNS4zMSwxMzUuMDQ2IDY4LjQwMSwxMzkuNDE5IiBmaWxsLW9wYWNpdHk9Ii44Ii8%2BPHBvbHlnb24gcG9pbnRzPSIzOC41MzUsOTcuMTY3IDM0LjQzNCwxMjYuNzAzIDguNzU5LDEwMS4wNzYiIGZpbGwtb3BhY2l0eT0iLjgiLz48cG9seWdvbiBwb2ludHM9IjEzNy4xNTQsMTIxLjYwMSAyMjAuOTgyLDQ0LjQ4MiAyNTguNjY2LDk0LjQxNiIvPjxwb2x5Z29uIHBvaW50cz0iMTM3LjE1NCwxMjEuNjAxIDE3Mi45NTksOC4xMyAyMjAuOTgyLDQ0LjQ4MiIgZmlsbC1vcGFjaXR5PSIuODUiLz48cG9seWdvbiBwb2ludHM9IjE3Mi45NTksOC4xMyAyNTguNjY2LDguMTMgMjIwLjk4Miw0NC40ODIiIGZpbGwtb3BhY2l0eT0iLjciLz48cG9seWdvbiBwb2ludHM9IjI1OC42NjYsOTQuNDE2IDI1OC42NjYsOC4xMyAyMjAuOTgyLDQ0LjQ4MiIgZmlsbC1vcGFjaXR5PSIuODUiLz48L2c%2BPC9zdmc%2BCg%3D%3D)
 
 ### Security & Analysis
 ![Wireshark](https://img.shields.io/badge/Wireshark-6C757D?style=for-the-badge&logo=wireshark&logoColor=white)
@@ -56,11 +57,11 @@ Hands-on experience with offensive security research and detection analysis: net
 
 ## 📁 Selected Projects
 
+- 🧵 [zephyr-lab](https://github.com/daniel-ploetzl/zephyr-lab) - Zephyr RTOS in C on Raspberry Pi Pico 2 W (RP2350): thread priorities, race conditions and mutexes
+- ⌨️ [hid-lab](https://github.com/daniel-ploetzl/hid-lab) - USB HID input simulation firmware in C for Raspberry Pi Pico 2 and Pico 2 W (RP2350)
+- 🔒 [ft_transcendence](https://github.com/daniel-ploetzl/ft_transcendence) - Full-stack team project; own modules: WAF (ModSecurity, OWASP CRS) and secrets management (HashiCorp Vault)
 - 🔍 [soc-auth-triage](https://github.com/daniel-ploetzl/soc-auth-triage) - Authentication log analysis: SSH attack pattern recognition, time-based clustering and failed/successful login correlation
 - 🖥️ [x11-lab](https://github.com/daniel-ploetzl/x11-lab) - X11 input grabbing, window manager bypass and session takeover
-- ⌨️ [hid-lab](https://github.com/daniel-ploetzl/hid-lab) - USB HID input simulation firmware in C for Raspberry Pi Pico 2 and Pico 2 W (RP2350)
-- 🧵 [zephyr-lab](https://github.com/daniel-ploetzl/zephyr-lab) - Zephyr RTOS in C on Raspberry Pi Pico 2 W (RP2350): thread priorities, race conditions and mutexes
 - ⚙️ [proc-lab](https://github.com/daniel-ploetzl/proc-lab) - Ephemeral process execution: process group detachment, signal handling and forensic visibility analysis
 - 💾 [ram-workspace-lab](https://github.com/daniel-ploetzl/ram-workspace-lab) - Runtime isolation and persistence boundary analysis in volatile memory
-- 🔒 [ft_transcendence](https://github.com/daniel-ploetzl/ft_transcendence) - Full-stack team project; own modules: WAF (ModSecurity, OWASP CRS) and secrets management (HashiCorp Vault)
 
