@@ -7,13 +7,13 @@ Hands-on experience with offensive security research and detection analysis: net
 ## Core Areas
 
 - **Network security**: ARP spoofing/poisoning, Man-in-the-Middle attack implementation and protocol vulnerability analysis (Layer 2)
-- **Windows security tooling**: Service architecture (SCM/Windows API), keylogger development, EDR detection analysis
-- **Authentication log analysis**: SSH attack pattern recognition, temporal clustering, failed/successful login correlation
+- **Embedded security**: ECDSA host authorisation, AES-GCM protection for flash records and signed and encrypted RP2350 firmware with keys provisioned in one time programmable memory
+- **Real-time operating systems**: Zephyr on RP2350, thread scheduling and priorities, race conditions, mutexes and priority inheritance
 - **Ephemeral execution**: runtime isolation, persistence boundaries in volatile memory, forensic visibility implications
 - **Process lifecycle manipulation**: process group control, setsid, signal handling, transient execution analysis
 - **Session-level exploitation**: X11 window manager bypass, input grabbing, session takeover without elevated privileges
 - **Endpoint simulation**: USB HID input emulation in embedded C, host-side detection of synthetic input
-- **Real-time operating systems**: Zephyr on RP2350, thread scheduling and priorities, race conditions, mutexes and priority inheritance
+- **Authentication log analysis**: SSH attack pattern recognition, temporal clustering, failed/successful login correlation
 - **Linux systems administration**: partitioning, user and permission management, service hardening, firewall configuration
 - **Web application security**: WAF (ModSecurity, OWASP CRS), secrets management (HashiCorp Vault)
 
@@ -21,10 +21,9 @@ Hands-on experience with offensive security research and detection analysis: net
 ## Current Focus
 
 - ft_malcolm: ARP spoofing/poisoning implementation and Layer 2 MitM attack analysis (42 Mastery)
-- tinky_winkey: Windows Service and Keylogger development, EDR detection analysis (42 Mastery)
-- hid-lab: extending USB HID simulation on Raspberry Pi Pico 2 W (RP2350)
+- rp2350-hid-security-lab: testing the firmware verifier with valid signatures, a different host key and proofs replayed after reconnect
 - zephyr-lab: learning RTOS fundamentals with Zephyr on Raspberry Pi Pico 2 W (RP2350)
-- (Embedded) Systems Programming: low-level hardware interaction, USB and Wi-Fi protocol behaviour on RP2350
+- (Embedded) Systems Programming: low-level hardware interaction, USB and WiFi protocol behaviour on RP2350
 
 
 ## 🛠️ Tech Stack
@@ -49,14 +48,14 @@ Hands-on experience with offensive security research and detection analysis: net
 ![Tmux](https://img.shields.io/badge/Tmux-1BB91F?style=flat&logo=tmux&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=flat&logo=virtualbox&logoColor=white)
-
+![QEMU/KVM](https://img.shields.io/badge/QEMU%2FKVM-FF6600?style=flat&logo=qemu&logoColor=white)
 
 ## 📁 Selected Projects
 
+- 💻 [rp2350-hid-security-lab](https://github.com/daniel-ploetzl/rp2350-hid-security-lab) - ECDSA host authorisation, AES-GCM protection for flash records and signed and encrypted RP2350 firmware with keys provisioned in OTP
 - 🧵 [zephyr-lab](https://github.com/daniel-ploetzl/zephyr-lab) - Zephyr RTOS in C on Raspberry Pi Pico 2 W (RP2350): thread priorities, race conditions and mutexes
 - ⌨️ [hid-lab](https://github.com/daniel-ploetzl/hid-lab) - USB HID input simulation firmware in C for Raspberry Pi Pico 2 and Pico 2 W (RP2350)
 - 🔒 [ft_transcendence](https://github.com/daniel-ploetzl/ft_transcendence) - Full-stack team project; own modules: WAF (ModSecurity, OWASP CRS) and secrets management (HashiCorp Vault)
-- 🔍 [soc-auth-triage](https://github.com/daniel-ploetzl/soc-auth-triage) - Authentication log analysis: SSH attack pattern recognition, time-based clustering and failed/successful login correlation
 - 🖥️ [x11-lab](https://github.com/daniel-ploetzl/x11-lab) - X11 input grabbing, window manager bypass and session takeover
 - ⚙️ [proc-lab](https://github.com/daniel-ploetzl/proc-lab) - Ephemeral process execution: process group detachment, signal handling and forensic visibility analysis
 - 💾 [ram-workspace-lab](https://github.com/daniel-ploetzl/ram-workspace-lab) - Runtime isolation and persistence boundary analysis in volatile memory
