@@ -1,51 +1,17 @@
 # Daniel Plötzl
 
-42 Vienna graduate (June 2026), currently in the 42 Mastery programme specialising in Cybersecurity, Systems Programming and embedded systems.
+42 Vienna graduate (June 2026), currently specialising in cybersecurity through the 42 Mastery programme. 
+<br><br>
 
-42 Vienna is part of the [42 Network](https://www.42network.org/), the world's largest IT school network, with 50+ campuses across 30+ countries. The network ranked 3rd in the 2026 World University Rankings for Innovation (WURI), ahead of MIT (5th) and Stanford (7th) in that ranking.
+## Professional Focus
 
-My work spans offensive security research, systems programming and embedded security. I investigate trust boundaries, authentication mechanisms, process execution, firmware integrity and security monitoring through hands-on technical projects.
-
-## Current Focus
-
-- **ft_malcolm:** ARP spoofing and poisoning implementation, Layer 2 Man-in-the-Middle attack analysis and network protocol behaviour (C, 42 Mastery).
-- **rp2350-hid-security-lab:** ECDSA host authorisation, AES-GCM protection for flash records and signed and encrypted RP2350 firmware with keys provisioned in one-time programmable (OTP) memory. Current testing includes signature verification, host-key binding and replay resistance across reconnects.
-- **zephyr-lab:** Learning RTOS fundamentals with Zephyr on Raspberry Pi Pico 2 W (RP2350), including thread scheduling, concurrency and synchronisation.
-- **Systems & Embedded Programming:** Low-level hardware interaction, USB and WiFi protocol behaviour on RP2350.
-
-## Technical Areas
-
-- **Network Security:** ARP spoofing and poisoning, Layer 2 Man-in-the-Middle attack implementation and protocol vulnerability analysis.
-- **Identity & Authentication Security:** ECDSA-based host authorisation, authentication mechanisms, SSH authentication log analysis and access-control boundaries.
-- **Embedded & Firmware Security:** Cryptographic firmware verification, AES-GCM authenticated encryption, key provisioning and secure flash storage on RP2350.
-- **Real-Time Systems:** Zephyr RTOS, thread scheduling and priorities, race conditions, mutexes and priority inheritance.
-- **Linux Internals & Process Security:** Process group control, session management, signal handling, ephemeral execution and forensic visibility.
-- **Session-Level Security Research:** X11 input grabbing, window manager bypass and session takeover without elevated privileges.
-- **Endpoint Simulation & Detection:** USB HID input emulation in embedded C and host-side detection of synthetic input.
-- **Application Security:** Web Application Firewall implementation with ModSecurity and OWASP Core Rule Set, secrets management with HashiCorp Vault.
-- **Security Monitoring & Detection Analysis:** SSH attack pattern recognition, temporal clustering and failed/successful authentication correlation.
-- **Linux Systems Administration:** Partitioning, user and permission management, service hardening and firewall configuration.
-
-## Earlier Security Research
-
-- **x11-lab:** X11 session takeover without elevated privileges, input grabbing and window manager bypass.
-- **proc-lab:** Ephemeral process execution, process group detachment, signal handling and forensic visibility analysis.
-- **ram-workspace-lab:** Runtime isolation and persistence boundary analysis in volatile memory.
-- **soc-auth-triage:** SSH authentication log analysis, attack pattern recognition and event correlation.
-
-Technical findings and security-relevant takeaways: [ploetzl.eu/writeups](https://ploetzl.eu/writeups/).
-
-## Developing Professional Focus
-
-My developing professional focus is at the intersection of:
-
-- **Identity and Access Management (IAM):** Identity lifecycle, authentication, authorisation and privileged access.
-- **Non-Human Identity Security:** Service accounts, workload identities, application credentials and machine-to-machine authentication.
-- **AI Agent Security:** Agent identities, delegated permissions, tool access, trust boundaries and the security implications of autonomous workflows.
+- **AI Agent Security:** Limiting which tools an AI agent can use and what it may do on someone’s behalf.
+- **Identity and Access Management (IAM):** Governing how access is granted, reviewed and revoked, including privileged access.
+- **Non-Human Identity Security:** Securing how applications and services authenticate and how their credentials are stored and rotated.
 - **Offensive Security Validation:** Analysing attack paths and testing whether identity, access-control and security boundaries withstand realistic attacks.
-- **Applied & Post-Quantum Cryptography:** Secure key management, cryptographic agility and the implications of post-quantum migration for PKI, device identity and firmware trust.
 
 A central question driving this direction is how autonomous systems obtain, use and delegate permissions, how these relationships can be abused and how their security can be assessed and governed.
+<br><br>
 
 ## 🛠️ Tech Stack
 
@@ -74,13 +40,14 @@ A central question driving this direction is how autonomous systems obtain, use 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=flat&logo=virtualbox&logoColor=white)
 ![QEMU/KVM](https://img.shields.io/badge/QEMU%2FKVM-FF6600?style=flat&logo=qemu&logoColor=white)
+<br><br>
 
 ## 📁 Selected Projects
 
+- 🔐 [ai-agent-security-lab](https://github.com/daniel-ploetzl/ai-agent-security-lab) - Delegated permissions for AI agent tool calls. A gateway checks the report owner’s grant before the AI agent can read an internal report.
 - 💻 [rp2350-hid-security-lab](https://github.com/daniel-ploetzl/rp2350-hid-security-lab) - ECDSA host authorisation, AES-GCM protection for flash records and signed and encrypted RP2350 firmware with keys provisioned in OTP memory.
-- 🧵 [zephyr-lab](https://github.com/daniel-ploetzl/zephyr-lab) - Zephyr RTOS in C on Raspberry Pi Pico 2 W (RP2350), thread priorities, race conditions and mutexes.
-- ⌨️ [hid-lab](https://github.com/daniel-ploetzl/hid-lab) - USB HID input simulation firmware in C for Raspberry Pi Pico 2 and Pico 2 W (RP2350).
+- 🧵 [zephyr-lab](https://github.com/daniel-ploetzl/zephyr-lab) - Zephyr RTOS in C on Raspberry Pi Pico 2 W with Thread scheduling, including how a race condition affects a shared counter and how a mutex protects it.
 - 🔒 [ft_transcendence](https://github.com/daniel-ploetzl/ft_transcendence) - Full-stack team project. Led technical architecture and implemented the security layer, including ModSecurity, OWASP CRS and HashiCorp Vault.
-- 🖥️ [x11-lab](https://github.com/daniel-ploetzl/x11-lab) - X11 input grabbing, window manager bypass and session takeover.
-- ⚙️ [proc-lab](https://github.com/daniel-ploetzl/proc-lab) - Ephemeral process execution, process group detachment, signal handling and forensic visibility analysis.
-- 💾 [ram-workspace-lab](https://github.com/daniel-ploetzl/ram-workspace-lab) - Runtime isolation and persistence boundary analysis in volatile memory.
+
+
+ [Technical write-ups](https://ploetzl.eu/writeups/) · [About me](https://ploetzl.eu/about/)
