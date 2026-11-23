@@ -48,6 +48,6 @@ A central question driving this direction is how autonomous systems obtain, use 
 - 💻 [rp2350-hid-security-lab](https://github.com/daniel-ploetzl/rp2350-hid-security-lab) - ECDSA host authorisation, AES-GCM protection for flash records and signed and encrypted RP2350 firmware with keys provisioned in OTP memory.
 - 🧵 [zephyr-lab](https://github.com/daniel-ploetzl/zephyr-lab) - Zephyr RTOS in C on Raspberry Pi Pico 2 W with Thread scheduling, including how a race condition affects a shared counter and how a mutex protects it.
 - 🔒 [ft_transcendence](https://github.com/daniel-ploetzl/ft_transcendence) - Full-stack team project. Led technical architecture and implemented the security layer, including ModSecurity, OWASP CRS and HashiCorp Vault.
-
+<br><br>
 
  [Technical write-ups](https://ploetzl.eu/writeups/) · [About me](https://ploetzl.eu/about/)
